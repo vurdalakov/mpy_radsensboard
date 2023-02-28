@@ -31,7 +31,7 @@ print()
 def set_and_verify_high_voltage_generator_state(expected_value):
     geiger.set_high_voltage_generator_state(expected_value)
     actual_value = geiger.get_high_voltage_generator_state()
-    print(f'HW generator state:   {actual_value}')
+    print(f'HV generator state:   {actual_value}')
     assert actual_value == expected_value
 
 set_and_verify_high_voltage_generator_state(1)
