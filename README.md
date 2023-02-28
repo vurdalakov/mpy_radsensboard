@@ -246,7 +246,7 @@ Returns the state of the LED pulse indicator: `1` if LED flashes when pulse come
 print(f'LED indication state: {geiger.get_led_indication_state()}')
 ```
 
-#### set_high_voltage_generator_state()
+#### set_led_indication_state()
 
 Sets the state of the LED pulse indicator.
 
