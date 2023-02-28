@@ -35,7 +35,7 @@ geiger = RadSensBoard(i2c)
 
 print('Device information')
 print(f'    Calibration value:    {geiger.get_calibration_value()}')
-print(f'    HW generator state:   {geiger.get_high_voltage_generator_state()}')
+print(f'    HV generator state:   {geiger.get_high_voltage_generator_state()}')
 print(f'    LED indication state: {geiger.get_led_indication_state()}')
 
 while True:
